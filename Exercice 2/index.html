@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="Header">
+    <b>||</b>
+
+    <label for="taille">Taille de l'ecriture : </label>
+    <input id="taille" type="number" name="taille" placeholder="16" onchange="changeTextFont()">
+
+    <b>||</b>
+
+    <label for="font">Police : </label>
+    <select name="font" id="font" onchange="changeFont() ">
+        <option value="Garamond">Garamond</option>
+        <option value="Verdana">Verdana</option>
+        <option value="Times New Roman">Times New Roman</option>
+    </select>
+    <b>||</b>
+    <label for="color">Couleur : </label>
+    <input id="color" type="color" name="color" onchange="changeColor()">
+    <br><br>
+</div>
+<br><br>
+<div class="parag">
+    <p id="p1"><a href="http://google.com">Google </a>Aliquam in faucibus sapien. Etiam pellentesque sapien eu consectetur vehicula. Ut porttitor id orci sed
+        tempor. Ut vel odio in eros feugiat porta. Aliquam erat volutpat. Cras varius interdum nibh. Cras vitae
+        consequat
+        ex, et tristique ante. Vivamus ut pharetra mauris. <a href="http://google.com">Google</a>
+    </p><br>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
